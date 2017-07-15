@@ -486,12 +486,10 @@ Playlists organized by categories and any source comes from Youtube users.
 
 <addon id="plugin.video.FMG"
        name="Find My Game"
-       version="2.15"
+       version="2.16"
        provider-name="Smurf">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.tvguide.Assassins" />
-	<import addon="repository.tvguides" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
