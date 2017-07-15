@@ -14,6 +14,47 @@
 	</extension>
 </addon>
 
+<addon id="plugin.audio.housemixes" name="House Mixes" version="1.1.6" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+<addon id="plugin.audio.televisiontunes" name="Themes" version="0.0.9" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>audio</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en">Browse TelevisionTunes.com</summary>
+
+    <description lang="en">Listen to TV Theme music and songs from different television shows</description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
 <addon id="plugin.program.ATools" name="Assassins Tools" version="0.0.1" provider-name="Aftermath">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -27,6 +68,62 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Assassins Tools</summary>
     <description lang="en">Assassins Tools using Aftermath Wizard, which allows you to get access to the latest Aftermath Custom Builds.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+<addon id="plugin.program.jollyroger" name="Jolly Roger Cookbook" version="1.0.0" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>executable</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en">Before you waste one entire second even considering mixing, creating, or otherwise implementing the instructions in these files, be aware that people have died from some of these very texts</summary>
+
+    <description lang="en">Before you waste one entire second even considering mixing, creating, or otherwise implementing the instructions in these files, be aware that people have died from some of these very texts </description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
+<addon id="plugin.program.readcomics" name="Read Comics" version="1.0.2" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.ukcheck" name="UK Vehicle Check" version="1.0.0" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -105,6 +202,48 @@ provider-name="Assassins version of a primaeval addon">
     <description>Concerts and Djs live performances in HD quality.
 Playlists organized by categories and any source comes from Youtube users.
 [B][COLOR lime]Advised the latest version of youtube 5.*.*[/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+<addon id="plugin.video.bigbuckbunny" name="Big Buck Bunny" version="1.0.3" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
+<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.34" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"  version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -198,6 +337,39 @@ Playlists organized by categories and any source comes from Youtube users.
 	<language>en</language>
 	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
+</addon>
+
+
+<addon id="plugin.video.DecadoDocs" name="Decado Documentaries" version="1.0.3" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
 </addon>
 
 <addon id="plugin.video.documented.hd"
@@ -364,6 +536,53 @@ Playlists organized by categories and any source comes from Youtube users.
 	</extension>
 </addon>
 
+
+<addon id="plugin.video.kiddiecartoons" name="Kiddie Cartoons" version="1.0.2" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
+<addon id="plugin.video.learningzone" name="Learning Zone" version="1.0.8" provider-name="MetalKettle">
+  <requires>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"> </summary>
+    <description lang="en">Welcome to the worlds largest collection of computer and technology related tutorials on XBMC/KODI</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.mic"
        name="Made In Canada IPTV"
        version="2.1"
@@ -493,6 +712,34 @@ Playlists organized by categories and any source comes from Youtube users.
 	</extension>
 </addon>
 
+<addon id="plugin.video.pythontut" name="Python Tutorial Videos" version="1.0.8" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"> </summary>
+    <description lang="en"> Learn Python using these easy to follow videos from http://buckysroom.org/ </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.spacetelescope" name="Space Telescope" version="0.0.7" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Videos and news releases from the Hubble Space Telescope project</summary>
+    <description lang="en">Videos and news releases from the Hubble Space Telescope project</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon
   id="plugin.video.SportsDevil"
   version="3.build.20170624"
@@ -527,6 +774,33 @@ For updates check the readme.
   </extension>
 </addon>
 
+
+<addon id="plugin.video.tellyads" name="Telly Ads" version="1.0.0" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
 <addon id="plugin.video.tinklepad" name="TinklePad" version="2.0.2" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -541,6 +815,79 @@ For updates check the readme.
 		<summary lang="en">Watch a wide selection of movies and tv shows from 5movies.to</summary>
 		<description lang="en">Big thanks to Lambda for his foundation code and use of Exodus for the Latest HD section and Jokstergfx for the artwork!</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.tonido-client" name="Tonido Client" version="1.0.1" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.toonmania" name="ToonMania" version="1.0.4" provider-name="MetalKettle">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.toonstv" name="Angry Birds : Toons TV" version="1.0.0" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.TubTub" name="TubTub" version="1.0.1" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">24-7 Streaming of various tv shows or show types</summary>
+    <description lang="en">Some of the streams are poor quality, be warned :)</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvmix" name="TV Mix" version="1.0.6" provider-name="MetalKettle">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"  version="2.1.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
 		<platform>all</platform>
 	</extension>
 </addon>
