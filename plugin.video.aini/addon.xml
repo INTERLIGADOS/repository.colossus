@@ -14,7 +14,7 @@ provider-name="Assassins version of a primaeval addon">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">INI Creator for FMG &amp; Assassins TV Guide</summary>
+  <summary lang="en">INI Creator for FMG and Assassins TV Guide</summary>
   <description lang="en"></description>
   <disclaimer lang="en">.</disclaimer>
 </extension>
