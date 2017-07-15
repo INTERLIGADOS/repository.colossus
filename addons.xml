@@ -1057,7 +1057,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.tvguide.Assassins" name="[COLOR black].[/COLOR]Assassins [COLOR red]TV Guide[/COLOR]" version="0.0.1a" provider-name="Smurf, Locknload">
+<addon id="script.tvguide.Assassins" name="[COLOR black].[/COLOR]Assassins [COLOR red]TV Guide[/COLOR]" version="0.0.1" provider-name="Smurf, Locknload">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
