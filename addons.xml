@@ -210,21 +210,19 @@
 </addon>
 
 <addon id="plugin.video.aini"
-version="1.0.1"
+version="1.0.2"
 name="Assassins ini"
-provider-name="Assassins version of a primaeval addon">
+provider-name="Smurf, Locknload">
 <requires>
-<import addon="xbmc.python" version="2.20.0"/>
+  <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
   <import addon="script.module.requests" version="2.9.1" />
-  <import addon="script.tvguide.Assassins" />
-  <import addon="repository.tvguides" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">INI Creator for FMG and Assassins TV Guide</summary>
+  <summary lang="en">INI Creator for FMG &amp; Assassins TV Guide</summary>
   <description lang="en"></description>
   <disclaimer lang="en">.</disclaimer>
 </extension>
