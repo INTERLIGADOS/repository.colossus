@@ -447,15 +447,20 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
         <forum>http://bit.ly/uwc-support</forum>
     </extension>
 </addon>
-<addon id="repository.colossus" name="[COLOR gold]Colossal Repository[/COLOR]" version="999.999.1" provider-name="Colossal">
-<extension point="xbmc.addon.repository" name="[COLOR gold]Colossal Repository[/COLOR]">
-        <info compressed="false">http://mediarepos.net/jiberish/Repository/addons.xml</info>
-        <checksum>http://mediarepos.net/jiberish/Repository/addons.xml.md5</checksum>
-        <datadir zip="true">http://mediarepos.net/jiberish/Repository/</datadir>
+<addon id="repository.colossus" name="[COLOR gold]Colossal Repository[/COLOR]" version="999.999.2" provider-name="Colossal">
+    <extension point="xbmc.addon.repository" name="[COLOR gold]Colossal Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Home Of 3rd Party Addons </summary>
-        <description>Collosal Repository--Please To Help Us Keep This Alive Donate Here https://www.paypal.me/BrianSMASH We Are Back</description>
+        <summary>Home Of 3rd Party Addons</summary>
+        <description></description>
         <platform>all</platform>
     </extension>
 </addon>
