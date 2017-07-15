@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.tvguide.Assassins" name="[COLOR black].[/COLOR]Assassins [COLOR red]TV Guide[/COLOR]" version="0.0.1a" provider-name="Smurf, Locknload">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.dateutil" version="2.4.2" />
+        <import addon="plugin.video.aini" version="1.0.1" />
+        <import addon="plugin.program.ATools" version="0.0.1" />
+		<import addon="plugin.video.FMG" version="2.15" />
+		<import addon="script.module.addon.common" optional="true" />
+		<import addon="script.module.pil" />
+		<import addon="repository.tvguides" />
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        
+		<summary lang="en">Powered By TV Streamers</summary>
+		<description lang="en">[COLOR red]IMPORTANT T&amp;C's [/COLOR] This Guide only provides a selection of Legitimatly Sourced Freeview Channels. On activating these streams you have agreed to having the Correct TV Licence for the Content you are viewing. Assassins TV Guide does not condone any illegitimate content, Adding [COLOR red]ANY[/COLOR] other content is done so at your own discretion. All Logos used are copyright to their respective owners. </description>
+        <disclaimer lang="en">Based on tvguide.fullscreen from Primaeval</disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum></forum>
+        <source></source>
+        <website></website>
+        <email></email>
+    </extension>
+</addon>

@@ -1,0 +1,10 @@
+[B]2.5.0[/B]
+- clean up
+-3D Tiltes Added And tidied up
+-Next update will be more content in years and top picks
+
+[B]2.4.0[/B]
+- Downloader clear cache and settings added 
+
+[B]2.3.0[/B]
+- cleanup

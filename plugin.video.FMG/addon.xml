@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.FMG"
+       name="Find My Game"
+       version="2.15"
+       provider-name="Smurf">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.tvguide.Assassins" />
+	<import addon="repository.tvguides" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Twitter Support @DeveloperSmurf</summary>
+    <description lang="en">Easy Way To Find which Add-on is showing your game. FMG does not provide any streams to matches, FMG seaches through your linked addons for streams, Add your addons using the Assassins ini Creator. Adding Add-ons to FMG is done so at users descression</description>
+    <disclaimer lang="en">FMG Does not the condone use of illegimate streams</disclaimer>
+	<platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>

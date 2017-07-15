@@ -1,0 +1,6 @@
+[B]v0.0.3[/B]
+- server change
+[B]v0.0.2[/B]
+- added All Channels section
+[B]v0.0.1[/B]
+- initial test version
