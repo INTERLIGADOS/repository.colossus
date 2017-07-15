@@ -2,8 +2,6 @@
 <addon id="plugin.program.ATools" name="Assassins Tools" version="0.0.1" provider-name="Aftermath">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.tvguide.Assassins" />
-	<import addon="repository.tvguides" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>executable</provides>

@@ -113,8 +113,6 @@
 <addon id="plugin.program.ATools" name="Assassins Tools" version="0.0.1" provider-name="Aftermath">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.tvguide.Assassins" />
-	<import addon="repository.tvguides" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>executable</provides>
@@ -126,7 +124,6 @@
     <platform>all</platform>
   </extension>
 </addon>
-
 
 <addon id="plugin.program.jollyroger" name="Jolly Roger Cookbook" version="1.0.0" provider-name="MetalKettle">
 
@@ -1014,20 +1011,20 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
         </extension>
     </addon>
 
-    <addon id="repository.tvguides" name=".[COLOR red]TV GUIDES[/COLOR] Repository" version="0.0.1" provider-name="locknload">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="TV GUIDES Repository">
-            <info compressed="false">http://tvstreamers.net/repo/tvguides/addons.xml</info>
-            <checksum>http://tvstreamers.net/repo/tvguides/addons.xml.md5</checksum>
-            <datadir zip="true">http://tvstreamers.net/repo/tvguides/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>TV GUIDES Repository</summary>
-            <description>!! TV GUIDES !!</description>
-            <platform>all</platform>
+<addon id="repository.tvguides" name=".[COLOR red]TV GUIDES[/COLOR] Repository" version="0.0.1" provider-name="locknload">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="TV GUIDES Repository">
+        <info compressed="false">http://tvstreamers.net/repo/tvguides/addons.xml</info>
+        <checksum>http://tvstreamers.net/repo/tvguides/addons.xml.md5</checksum>
+        <datadir zip="true">http://tvstreamers.net/repo/tvguides/</datadir>
+        <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>TV GUIDES Repository</summary>
+        <description>!! TV GUIDES !!</description>
+        <platform>all</platform>
     </extension>
 </addon>
 
@@ -1066,14 +1063,13 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 		<import addon="plugin.video.FMG" version="2.15" />
 		<import addon="script.module.addon.common" optional="true" />
 		<import addon="script.module.pil" />
-		<import addon="repository.tvguides" />
     </requires>
     <extension point="xbmc.python.script" library="addon.py">
             <provides>executable</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="login"/>
     <extension point="xbmc.addon.metadata">
-
+        
 		<summary lang="en">Powered By TV Streamers</summary>
 		<description lang="en">[COLOR red]IMPORTANT T&amp;C's [/COLOR] This Guide only provides a selection of Legitimatly Sourced Freeview Channels. On activating these streams you have agreed to having the Correct TV Licence for the Content you are viewing. Assassins TV Guide does not condone any illegitimate content, Adding [COLOR red]ANY[/COLOR] other content is done so at your own discretion. All Logos used are copyright to their respective owners. </description>
         <disclaimer lang="en">Based on tvguide.fullscreen from Primaeval</disclaimer>
